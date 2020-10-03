@@ -1,0 +1,140 @@
+body{
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    
+}
+h1{
+    font-size:3.625rem;      /*16px = 100% = 1em : 90/16=5.625*/
+    margin:50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    color: #66BFBF;
+    font-weight: normal ;
+    padding-bottom: 10px;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+
+}
+a{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: #EAF6F6;
+}
+
+
+
+.Top-container{
+    background-color: #E4f9F5;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container{
+    margin: 100px 0;
+}
+
+
+.bottom-container{
+    background-color: #66BFBF;
+    margin :auto;
+    padding: 50px 0 20px;
+    line-height: 2;
+   
+}
+p{
+    line-height: 2;
+}
+.pro{
+    text-decoration: underline;
+}
+
+.intro{
+    width: 30%;
+    margin: auto;
+}
+.Top-cloud{
+    position:absolute;
+    right:300px;
+    top:40px;
+}
+.Bottom-cloud{
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.skill-row{
+    width: 50%;
+    margin:100px auto 100px auto;
+    text-align: left;
+    
+
+}
+
+.html-img{
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+}
+
+.photo-img{
+    width: 30%;
+    float: right;
+    margin-left: 30px;
+
+}
+hr{
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.Copy-color{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+    
+
+}
+
+.btn {
+    padding: 15px;
+    box-shadow: 1px 1px 20px 0 #000;
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    border-radius: 10px;
+    font-weight: 50px;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    border: solid #337FED 1px;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 20px;
+    text-shadow: 1px 1px 20px #000;
+  }
+  
+  .btn:hover {
+    background-image: linear-gradient(to bottom, #28c4ad, #30e3cb);
+  }
+
+
+
+
+.Need-padding{
+    width: 40%;
+    margin: 40px auto 60px;
+}
